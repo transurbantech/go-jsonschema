@@ -1,4 +1,4 @@
-module github.com/atombender/go-jsonschema
+module github.com/transurbantech/go-jsonschema
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -14,3 +14,5 @@ require (
 )
 
 go 1.13
+
+replace github.com/atombender/go-jsonschema => ./
